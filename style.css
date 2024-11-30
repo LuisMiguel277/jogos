@@ -1,0 +1,86 @@
+@charset "Utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Rowdies:wght@300;400;700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: linear-gradient(to left,#0392E8,#05B3FD,#0397F3);
+}
+header{
+    background-image: linear-gradient(to left,#0A0A0A,#3B3B3B,#0B0B0B);
+    width: auto;
+    }
+main{
+    background-color: white;
+    margin: auto;
+    max-width: 1300px;
+    }
+h1{
+    font-family: "Bebas Neue",Times,Serif;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 6em;
+    font-weight: normal;
+}
+h2{
+    font-family: "Teko",Times,Serif;
+    text-align: center;
+    font-size: 3em;
+    font-weight: 500;
+    padding-top: 10px;
+}
+.jogos{
+    background-image: linear-gradient(to right,#0A0A0A,#3B3B3B,#0B0B0B,transparent);
+    color:  #38D0F2;
+}
+h3{
+    font-family: "Teko",Times,Serif;
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: bold;
+    padding-top: 20px;
+}
+p{
+    text-indent: 12px;
+    font-family: "Playfair Display",Times,Serif;
+    text-align: left;
+    font-size: 1.5em;
+    padding-top: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+.curio{
+    background-image: linear-gradient(to right,#0A0A0A,#3B3B3B,#0B0B0B);
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 1.8em;
+    color: #38D0F2;
+}
+ol{
+    list-style-position: inside;
+}
+img{
+    width: 60%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 40px;
+    box-shadow: 5px 5px 30px black;
+}
+
+picture{
+    display: flex;
+    justify-content: center;
+}
+body>header>h1>strong{
+    color: #05B3FD;
+    font-weight: normal;
+}
+body>main>ul>h2>li>strong{
+    font-weight: bold;
+    color: #05B3FD;
+}
